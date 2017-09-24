@@ -1,0 +1,22 @@
+List  = ['English', 'Bahasa Indonesia', 'Bahasa Malaysia', 'French']
+print (List [0])
+message = "I'd like to learn " + (List[0])
+print (message)
+del List [2]
+print (List)
+List.append ('Korean')
+print (List)
+List.insert(3, "Japanese")
+print (List)
+List.pop(0)
+print (sorted (List))
+print (List)
+List.reverse ()
+print (List)
+List.sort (reverse=False)
+print (List)
+List.sort (reverse=True)
+print (List)
+print (len(List))
+del List ['0', '1', '2', '3']
+print (List)

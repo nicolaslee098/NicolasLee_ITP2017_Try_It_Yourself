@@ -1,0 +1,12 @@
+locations = ['China', 'Indonesia', 'Australia', 'Malaysia', 'Singapore']
+print (locations)
+print (sorted (locations))
+print (locations)
+locations.reverse ()
+print (locations)
+locations.reverse ()
+print (locations)
+locations.sort (reverse=False)
+print (locations)
+locations.sort (reverse=True)
+print (locations)
